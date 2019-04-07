@@ -42,6 +42,7 @@
                 border-radius: 50%;
                 margin-left: $icon-size;
                 line-height: $icon-size;
+                border: 3px solid black;
             }
         }
 

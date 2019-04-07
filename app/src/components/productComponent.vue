@@ -104,6 +104,7 @@
                     width: auto;
                     background-color: lightgrey;
                     border-radius: 50%;
+                    border: 1px solid black;
                 }
             }
 
