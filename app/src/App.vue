@@ -38,7 +38,7 @@
                         window.innerHeight === document.documentElement.offsetHeight;
 
                     if (bottomOfWindow) {
-                        ProductsService.loadMoreProducts(products => {
+                        ProductsService.getProducts(products => {
                             this.$store.commit('addProducts', products);
                         })
                     }
