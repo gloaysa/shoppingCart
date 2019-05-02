@@ -45,5 +45,8 @@
       ".*\\.(vue)$": "vue-jest",
       "^.+\\.js$": "<rootDir>/node_modules/babel-jest"
     }
+  },
+  "dependencies": {
+    "vuex-persist": "^2.0.0"
   }
 }
